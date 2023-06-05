@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 , h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+#landing-page {
+    background-image: url(https://images.unsplash.com/photo-1566009002888-a8e15b0e1650?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80);
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    height: 100vh;
+}
+
+.selamat {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    top: 45%;
+    text-align: center;
+    color: rgb(24, 23, 23);
+    transform: scale(.8);
+}
+
+#logo {
+    color: rgb(255, 255, 38);
+}
+
+#plogo {
+    margin-right: 500px;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul > li > a {
+    text-decoration: none;
+    color:white;
+    
+    
+  
+}
+
+ul {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 500px;
+     list-style: none;
+}
+
+li > a:hover {
+    background-color: rgb(255, 255, 38) ;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .1s ease-in-out;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+p {
+    text-align: left;
+}
+
+.isi-content {
+    padding: 2em;
+    margin: 1em;
+    margin-bottom: 350px;
+}
+
+#p1 {
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+#p2 {
+    border: 2px solid black;
+}
+
+#p3 {
+    border: 2px solid black;
+}
+
+#p1:hover {
+    background-color: rgb(255, 255, 38) ;
+    transition: .1s ease-in-out;
+    transition-delay: .05s;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+#p2:hover {
+    background-color: rgb(255, 255, 38) ;
+    transition: .1s ease-in-out;
+    transition-delay: .05s;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+#p3:hover {
+    background-color: rgb(255, 255, 38) ;
+    transition: .1s ease-in-out;
+    transition-delay: .05s;
+    border-radius: 30px;
+    transform: scale(1.1);
+}
+
+
+.portofolio-nav {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.gmbforto {
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: middle;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.gmbforto:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.daftar {
+    width: 100%;
+}
+
+.d-input {
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+}
+
+.input {
+    width: 85%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.input > label {
+    display: block;
+    font-size:1.2em;
+}
+
+.d-input > input, .d-input > textarea {
+    width: 100%;
+    font-size: 1em;
+}
+
+.btn-kirim {
+    width: 20%;
+    margin: 0 auto;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-size: 1em;
+    padding: .5em 0;
+    display: inline-block;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+@media only screen and (min-width: 600px) {
+    .non-desktop {
+        display: none;
+    }
+    
+    .desktop {
+        display: block !important;
+    }    
+
+}
